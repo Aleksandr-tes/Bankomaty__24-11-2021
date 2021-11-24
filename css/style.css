@@ -52,6 +52,9 @@
 .bancomat__item-green {
     background: #53C588;
 }
+.bancomat__item-gray {
+    background: #E0E0E0;
+}
 .bancomat__block-top {
     display: flex;
     align-items: center;
@@ -139,6 +142,11 @@
 .bancomat__item-green .bancomat__top-firm,
 .bancomat__item-green .bancomat__adress,
 .bancomat__item-green .bancomat__bottom-time {
+    color: #000;
+}
+.bancomat__item-gray .bancomat__top-firm,
+.bancomat__item-gray .bancomat__adress,
+.bancomat__item-gray .bancomat__bottom-time {
     color: #000;
 }
 
